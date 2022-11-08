@@ -1,9 +1,9 @@
 //if import a class
-//import Ract from 'react'
+//import React from 'react'
 import Header from './components/Header'
 
-function App() {
-  return (
+const App = () =>{
+  return(
     <div className='container'>
       <Header/>
     </div>
@@ -15,4 +15,4 @@ function App() {
 //     return <h1>hello for a class</h1>
 //   }
 // }
-export default App;
+export default App
